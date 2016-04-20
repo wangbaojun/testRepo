@@ -25,5 +25,5 @@ s.resource_bundles = {
 
 s.public_header_files = 'podTestLib/Classes/**/*.h'   #公开头文件地址
 s.frameworks = 'UIKit'                  #所需的framework，多个用逗号隔开
-s.dependency
+s.dependency 'AFNetworking'  #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个
 end
